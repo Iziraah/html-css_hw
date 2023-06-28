@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top_header {
+    padding-bottom: 94.71px;
+    padding-top: 11px;
+}
+
+.big_text {
+    margin-top: 96px;
+    margin-bottom: 17px;
+}
+.text{
+    margin-top: 17px;
+    margin-bottom: 52px;
+}
+.button {
+    margin-bottom: 119px;
+}
+.footer {
+    padding-top: 97px;
+    padding-bottom: 96px;
+
+}
