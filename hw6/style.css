@@ -3,24 +3,137 @@
     padding: 0;
 }
 
+body {
+    font-family: questrial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
 .top_header {
-    padding-bottom: 94.71px;
+    padding-bottom: 40px;
     padding-top: 11px;
+    max-width: 1920 px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_menu {
+    margin: 0 346px 0 14px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 14px;
+}
+
+.top_h_menu{ 
+    margin: 0 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    gap: 20px
+}
+
+
+.h_menu {
+    color: #000000;
+    font-size: 14px;
+    text-decoration: none;
+    /* margin-right: 346px; */
+}
+
+.h_menu_h {
+    color: #F25822;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.top_info {
+    max-width: 15000 px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 41px;
+    justify-content: center;   
+}
+
+.center {
+    padding-left: calc(50% - 637);
+    padding-right: calc(50% - 637);
+
+}
+
+.top_info_pic {
+    display: flex;
+    align-items: center;
+}
+
+.top_info_text {
+    max-width: 604px;
+    width: 100%;
+    outline: 2px #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
 }
 
 .big_text {
-    margin-top: 96px;
+    margin-top: 40px;
     margin-bottom: 17px;
+    font-size: 60px;
 }
 .text{
     margin-top: 17px;
     margin-bottom: 52px;
+    font-size: 20px;
+    color: #888;
 }
+.top_info_button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+}
+
 .button {
+    display: block;
+    box-sizing: border-box;
+    border: none;
+    margin: 15px 36px 16px 35px;
+    width: 140px;
+    height: 50px;
     margin-bottom: 119px;
+    font-size: 15px;
+    color: #AAAAAA;
+    border: none;
+    background-color:#FFF;
+
+}
+
+.b1 {
+    display: block;
+    box-sizing: border-box;
+    border: none;
+    margin: 15px 36px 16px 35px;
+   background-color: #F25822;
+   border-radius: 50px;
+   box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+   flex-shrink: 0;
+   color: #FFF
+
+
 }
 .footer {
     padding-top: 97px;
     padding-bottom: 96px;
-
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    gap: 48px;
 }
