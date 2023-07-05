@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: #000;
+    font-family: open sans;
+}
+.top {
+    padding-bottom: 99px;
+}
+
+.header {
+    padding-top: 39px;
+    padding-bottom: 39px;
+}
+.top_content {
+    margin-top: 160px;
+    margin-bottom: 197px;
+
+}
+.subtitle {
+    margin-bottom: 10px;
+}
+.title {
+    margin-bottom: 40;
+}
+.button {
+    margin-top: 50px;
+}
+/* ++++++++++++++++++++ */
+
+.plitka {
+    display: grid;
+    gap: 30px ;
+    grid-template-columns: repeat(3, 362px);
+    justify-content: center;
+    padding-top: 264px;
+    padding-bottom: 243px;
+}
+
+.plitka1 {
+    border-radius: 10px;
+    background: #132035;
+    padding: 30px 30px 0 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plitka_big {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.plitka_img {
+    background: #132035;
+    /* padding-top: 30px; */
+    /* padding-bottom: 30px; */
+}
+
+.img_big {
+    background: #132035;
+    padding-top: 30px;
+}
+
+.h_big {
+    background: #132035;
+    padding-top: 60px;
+}
+
+.p_big {
+    background: #132035;
+    padding-top: 60px;
+    padding-bottom: 144px;
+}
+
+.plitka_h{
+    background: #132035;
+    color: var(--ffffff, #FFF);
+    text-align: center;
+    font-size: 25px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    opacity: 0.699999988079071;
+    padding-top: 30px;
+    /* padding-bottom: 30px; */
+}
+
+.p_welcome {
+    background: #132035;
+    color:#FFF;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: var(--ffffff, #FFF);
+    text-align: center;
+    font-size: 16px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    opacity: 0.699999988079071;
+}
