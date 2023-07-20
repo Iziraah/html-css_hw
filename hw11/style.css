@@ -73,7 +73,7 @@ a {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    width: 377px;
+    /* width: 377px; */
     height: 93px;
     color: #222;
     font-size: 20px;
@@ -270,16 +270,7 @@ a {
 /* ====================================================*/
 @media (max-width: 1024px) {
     .center {
-        /* padding-left: calc(50% - 367px);
-        padding-right: calc(50% - 367px); */
         max-width: 768px;
-    }
-
-    .header_menu {
-        /* background-color: #222222;
-        padding: 18px 0 19px 0; */
-        /* width: 1024px; */
-        
     }
     
     .menu {
@@ -360,5 +351,97 @@ a {
         flex-wrap: nowrap;
         align-items: center;
         height: 1835px;
+    }
+}
+@media (max-width: 767px) {
+    .header_menu {
+        margin: 0;
+        padding: 0;
+    }
+    .navigation {
+        display: flex;
+        flex-direction: row-reverse;
+        /* gap: 33px; */
+        justify-content: flex-end;
+    }
+
+    .img_navig {
+        display: none;
+    }
+    /* .body {
+        margin: 0;
+        padding: 0;
+    } */
+
+    .main_img {
+        display: none;
+    }
+    .main_text {
+        padding: 138px 0 151px 56px;
+    }
+    .brand {
+        font-size: 38px;
+    }
+    .lux {
+        font-size: 20px;
+    }
+    .fashion {
+        font-size: 20px;
+    }
+
+    .triple {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        /* flex-wrap: nowrap; */
+        /* justify-content: center; */
+        padding-top: 65px;
+        padding-bottom: 16px;
+        align-items: center;
+    }
+    .for_w {
+        width: 343px;
+        height: 247px;
+    }
+
+    .for_m {
+        width: 343px;
+        height: 247px;
+    }
+
+    .for_ch {
+        width: 343px;
+        height: 247px;
+    }
+
+    .items {
+        grid-template-columns: repeat(1, 359px);
+        /* grid-template-rows: repeat(3, 581px); */
+    }
+    .items img {
+        max-width: 359px;
+        min-height: 419px;
+    }
+    .plitka {
+        height: 3670px;
+    }
+
+    .accesories img {
+        width: 343px;
+        height: 111px;
+        object-fit: none;
+        object-position: center; 
+        }
+
+    .accesories {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        padding-bottom: 65px;
+    }
+    .p_item {
+        padding-bottom: 65px;
     }
 }
